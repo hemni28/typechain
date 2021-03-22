@@ -36,7 +36,6 @@ class Block {
     this.timestamp = timestamp;
   }
 }
-
 const genesisBlock: Block = new Block(0, "2020202020202", "", "Hello", 123456);
 
 let blockchain: Block[] = [genesisBlock];
