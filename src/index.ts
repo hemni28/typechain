@@ -118,7 +118,6 @@ const addBlock = (candidateBlock: Block): void => {
 createNewBlock("second block");
 createNewBlock("third block");
 createNewBlock("fourth block");
-console.log("#############");
 console.log(blockchain);
 // 모듈이 된다고 선언해줘야함 (bug인듯?)
 export {};
